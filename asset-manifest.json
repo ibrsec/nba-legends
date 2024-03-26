@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nba-legends/static/css/main.6d295253.css",
+    "main.js": "/nba-legends/static/js/main.28cd1b03.js",
+    "index.html": "/nba-legends/index.html",
+    "main.6d295253.css.map": "/nba-legends/static/css/main.6d295253.css.map",
+    "main.28cd1b03.js.map": "/nba-legends/static/js/main.28cd1b03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d295253.css",
+    "static/js/main.28cd1b03.js"
+  ]
+}
