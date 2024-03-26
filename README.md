@@ -133,7 +133,7 @@ npm run dev || yarn start
 <a name="directory-structure"></a>
 ## 📂 Directory structure 
 
-```
+```diff
 nba-legends  (folder)
   |          
   |---public (folder)
