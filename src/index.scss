@@ -1,0 +1,9 @@
+@use "./scss/reset";
+@use "./scss/variables";
+// @use "./scss/mixins";
+
+
+
+ body{
+    background-color: variables.$bg-color;
+ }

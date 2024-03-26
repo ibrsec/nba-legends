@@ -1,0 +1,23 @@
+@use "../../scss/variables";
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  .searchInput {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    min-width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: variables.$text-color;
+    background-color: variables.$bg-search-color;
+    &:focus {
+      outline-color: variables.$text-color;
+    }
+  }
+}

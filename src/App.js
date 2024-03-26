@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext  } from "react";
+import "./App.scss";
+import Header from "./components/header/Header.jsx";
+import Card from "./components/main/Card.jsx";
+import Content from "./components/main/Content.jsx";
+import Search from "./components/search/Search.jsx"; 
+import { GlobalContext    } from "./components/context/GlobalData.jsx";
 
 function App() {
+  // const [datas, setDatas] = useState(data);
+  // const [searchValue, setSearchValue] = useState("");
+
+  // //SEARCH INPUT CHANGE HANDLER
+  // const changeHandler = (e) => {
+  //   if (!e.target.value.trim()) {
+  //     setDatas(data);
+  //   } else {
+  //     setSearchValue(e.target.value.trim());
+  //     console.log(searchValue);
+  //   }
+  // };
+
+  // //make searching in legends with words
+  // useEffect(() => {
+  //   setDatas(
+  //     data.filter((data) =>
+  //       data.name.toLowerCase().includes(searchValue.toLowerCase())
+  //     )
+  //   );
+  //   console.log(datas);
+  // }, [searchValue]);
+
+  const {datas} = useContext(GlobalContext);
+  console.log(datas);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header /> 
+        <Search  /> {/* onChange={changeHandler} */}
+        <Content>
+          {[...datas].map((legend) => (
+            <Card key={legend.name} legend={legend} />
+          ))}
+        </Content> 
     </div>
   );
 }

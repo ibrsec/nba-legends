@@ -1,0 +1,63 @@
+@use "../../scss/variables";
+@use "../../scss/mixins";
+
+.card {
+  width: 250px;
+  height: 350px;
+  border: 3px solid variables.$nba-blue-color;
+  background-color: variables.$bg-search-color;
+  border-radius: 10px;
+  cursor: pointer;
+  .imgContainer {
+    overflow: hidden;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    z-index: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+      @include mixins.sofTransition;
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+
+    .details {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: variables.$card-bg-color;
+      z-index: 3;
+      border-radius: 8px 8px 0 0;
+      display: flex; 
+      align-items: center;
+      justify-content: center; 
+    //   display: none;
+    @include mixins.sofTransition;
+      transform: translateX(110%);
+      div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center; 
+        gap: .3rem;
+        span{
+            text-transform: capitalize;
+        }
+
+      }  
+
+    }
+  }
+  p {
+    text-align: center;
+    padding-top: 5px;
+    color: variables.$text-color;
+  }
+}
