@@ -135,47 +135,47 @@ npm run dev || yarn start
 
 ```
 nba-legends  (folder)
-    |          
-    |---public (folder)
-  + |---src (folder)
-    |     |---img (folder) 
-    |     |
-    |     |---scss (folder)
-    |     |     |---_mixins.scss
-    |     |     |---_reset.scss  
-    |     |     └---_variable.scss
-    |     |  
-    |     |---helper (folder)
-    |     |     └---data.jsx   
-    |     |  
-    |     |---components (folder)
-    |     |     |---contex (folder)
-    |     |     |     └---GlobalData.jsx
-    |     |     |    
-    |     |     |---header (folder)
-    |     |     |     |---Header.jsx
-    |     |     |     └---Header.module.scss
-    |     |     |    
-    |     |     |---search (folder)
-    |     |     |     |---Search.jsx
-    |     |     |     └---Search.module.scss
-    |     |     |    
-    |     |     └---main (folder)
-    |     |           |---Content.jsx
-    |     |           |---Content.module.scss
-    |     |           |---Card.jsx
-    |     |           └---Card.module.scss
-    |     |         
-    |     |
-    |     |---App.js
-    |     |---App.scss
-    |     |---Index.js
-    |     └---Index.scss
-    |     
-    |----index.html    
-    |----package.json
-    |----yarn.lock
-    └----readme.md 
+  |          
+  |---public (folder)
++ |---src (folder)
+  |     |---img (folder) 
+  |     |
+  |     |---scss (folder)
+  |     |     |---_mixins.scss
+  |     |     |---_reset.scss  
+  |     |     └---_variable.scss
+  |     |  
+  |     |---helper (folder)
+  |     |     └---data.jsx   
+  |     |  
+  |     |---components (folder)
+  |     |     |---contex (folder)
+  |     |     |     └---GlobalData.jsx
+  |     |     |    
+  |     |     |---header (folder)
+  |     |     |     |---Header.jsx
+  |     |     |     └---Header.module.scss
+  |     |     |    
+  |     |     |---search (folder)
+  |     |     |     |---Search.jsx
+  |     |     |     └---Search.module.scss
+  |     |     |    
+  |     |     └---main (folder)
+  |     |           |---Content.jsx
+  |     |           |---Content.module.scss
+  |     |           |---Card.jsx
+  |     |           └---Card.module.scss
+  |     |         
+  |     |
+  |     |---App.js
+  |     |---App.scss
+  |     |---Index.js
+  |     └---Index.scss
+  |     
+  |----index.html    
+  |----package.json
+  |----yarn.lock
+  └----readme.md 
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
