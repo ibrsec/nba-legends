@@ -15,7 +15,7 @@
     <a href="https://github.com/ibrsec/nba-legends"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ibrsec.github.io/nba-legends/">View Demo</a>
+    <a href="https://nba-legends-henna.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/ibrsec/nba-legends/issues">Report Bug</a>
     ·
@@ -63,7 +63,7 @@
 <a name="about-the-project"></a>
 ## ℹ️ About The Project
 
-[![nba-legends](./src/img/project.gif)](https://ibrsec.github.io/nba-legends/)
+[![nba-legends](./src/img/project.gif)](https://nba-legends-henna.vercel.app/)
 
 
 
